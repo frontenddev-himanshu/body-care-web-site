@@ -1,0 +1,433 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: poppins;
+}
+
+h1, h2, h3 ,h3, h5, h6{
+    font-family: "poppins";
+}
+
+/* nav section */
+
+.nav-container{
+    width: 100%;
+    height: 9vh;
+    position: fixed;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.50);
+}
+
+/* nav links */
+
+.nav-content{
+    height: 100%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.links{
+    display: flex;
+    gap: 20px;
+}
+.links a{
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 400;
+    transition: 0.10s ease-in-out;
+}
+.links a:hover{
+    color: #9fa0a8;
+}
+
+/* nav icons cart links */
+
+.icons{
+ display: flex;
+ gap: 40px;
+}
+.icons-section{
+    display: flex;
+    gap: 20px;
+}
+.icons-section a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    transition: 0.25s ease-in-out;
+}
+.newaccount{
+    background-color: #dcd6f7;
+    padding: 10px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    transition: 0.25s ease-in-out;
+}
+.icons-section a:hover{
+    color: #9fa0a8;
+}
+.newaccount:hover{
+    box-shadow: 0px 0px  2px black;
+}
+
+/* front-page */
+
+.front-page{
+    width: 100%;
+    height: 100vh;
+    background-color: #dcd6f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.front-heading{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.text-inside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+    height: 60%;
+    width: 50%;
+}
+.text-inside span{
+    font-size: 65px;
+    font-weight: bold;
+    width: 900px;
+}
+.text-inside p{
+    font-size: 20px;
+}
+.text-inside button{
+    font-size: 16px;
+    background-color: #dcd6f7;
+    color: black;
+    padding: 12px 35px;
+    border-radius: 60px;
+    transition: 0.25s ease-in-out;
+}
+.text-inside button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+/* page2 skikcare */
+
+.skin-care{
+    height: 91vh;
+    width: 100%;
+}
+.img-skin{
+    background-color: red;
+    height: 91vh;
+    width: 100%;
+    background-image: url(skin-care.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    transition: 0.25s ease-in-out;
+}
+
+/* offer page */
+
+.offer-page{
+    height: 51vh;
+    width: 100%;
+    background-image: url(9fb405f5-177e-4c8e-968f-0f88b2811486.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* brand section */
+
+.brand-img{
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.brand-1{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    background-image: url(a2e37957-b8d8-47d9-a997-592baf55d69f.avif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.brand-2{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    background-image: url(688a52c0-afef-41f8-a4f7-1c1605bf6594.avif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.brand-3{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    background-image: url(2d8d8127-1d56-4376-af63-cc50f6cf163e.avif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.brand-4{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    background-image: url(8594913f-3b9d-4dfa-adeb-9644b1f00963.avif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.brand-5{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    background-image: url(d004c44f-6b24-464c-96b7-7b9ed13f9e4f.avif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* oil section */
+
+.oil-container{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.oil-container a{
+ height: 80%;
+ width: 80%;
+ background-image: url(oil.webp);
+ background-size: cover;
+ background-position: center;
+ transition: 0.30s ease-in-out;
+}
+.oil-container a:hover{
+    height: 90%;
+    width: 90%;
+}
+
+/* hair products */
+
+.hair-brands{
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.brands-img{
+    height: 180px;
+    width: 180px;
+    background-size: cover;
+}
+
+/* only at your body care */
+
+.yourbodycare{
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-top: 30px;
+}
+.name{
+    height: 80%;
+    width: 60%;
+    text-align: center;
+}
+.name span{
+    font-size: 40px;
+    font-weight: bold;
+}
+.name p{
+    font-size: 16px;
+}
+
+/* Product cateogries */
+
+.cateogeries{
+    width: 100%;
+    height: 50vh;
+    display: flex;  
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+}
+.product-links{
+    height: 90%;
+    width: 20%;
+    border-radius: 10px;
+    transition: 0.25s ease-in-out;
+}
+.product-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.product-links:hover{
+    transform: scale(0.90);
+}
+
+/* safety notices */
+
+.safety{
+    width: 100%;
+    height: 30vh;
+    background-color: #dcd6f7;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.heading{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heading h2{
+   color: #000000;
+   font-style: italic;
+   font-weight: 500;
+}
+.reasons{
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.messages{
+    height: 80%;
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.messages p{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* hover cateogries section */
+
+.messages a{
+    transition: 0.40s ease-in-out;
+}
+.messages a:hover{
+    transform: rotatey(360deg);
+}
+
+/* footer section */
+
+.footer-con{
+    height: 35vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.862);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+    border: 2px black solid;
+}
+.deals{
+    height: 70%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+}
+.deals a{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.555);
+    transition: 0.25s ease-in-out;
+}
+.deals h3{
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: white;
+}
+.icons{
+    display: flex;
+    gap: 20px;
+}
+.fa-brands{
+    font-size: 18px;
+    transition: 0.20s ease-in-out;
+}
+
+/* footer hover section */
+
+.fa-brands:hover{
+    color: #dcd6f7;
+    transform: scale(1.3);
+}
+.deals a:hover{
+    text-decoration: underline;
+}
+
+/* customer-chat */
+
+.help{
+    height: 100px;
+    width: 100px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+
+.customer-chat{
+    height: 60px;
+    width: 60px;
+    background-color: transparent;
+    background-color: #dcd6f7;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.25s ease-in-out;
+}
+.fa-headset{
+    font-size: 25px;
+}
+
+/* customer hover */
+
+.customer-chat:hover{
+    background-color: black;
+    cursor: pointer;
+}
