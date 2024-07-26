@@ -1,0 +1,176 @@
+
+/* laptop size or tab size */
+
+@media (min-width:800px) and (max-width:1400px) { 
+
+
+    .front-page .text-inside span{
+        font-size: 45px;
+    }
+
+    .front-page .text-inside button{
+        padding: 8px 18px;
+    }
+
+    .customer-chat{
+        height: 55px;
+        width: 55px;
+    }
+
+    .fa-headset{
+        font-size: 22px;
+    }
+
+    .oil-container{
+        overflow: hidden;
+    }
+
+    .oil-container a{
+        height: 1200px;
+        width: 1200px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+}
+
+
+/* mobile screen */
+
+@media (min-width:300px) and (max-width:800px){
+    .nav-container{
+        display: none;
+    }
+
+    .front-page{
+        height: 100vh;
+    }
+
+    .front-page .text-inside span{
+        font-size: 40px;
+        width: 300px;
+    }
+
+    .front-page .text-inside button{
+        font-size: 12px;
+        padding: 8px 18px;
+    }
+
+    .help{
+        width: 60px;
+        height: 60px;
+        bottom: 15px;
+        right: 15px;
+    }
+    .customer-chat{
+        height: 40px;
+        width: 40px;
+    }
+
+    .fa-headset{
+        font-size: 18px;
+    }
+
+    .skin-care{
+        width: 100%;
+    }
+    .img-skin{
+        height: 35vh;
+        background-attachment: scroll;
+        background-size: calc(400px);
+    }
+
+    .offer-page{
+        height: 10vh;
+        background-size: cover;
+    }
+
+    .brand-img{
+        padding: 20px;
+    }
+
+    .b-res{
+        height: 60px;
+        width: 60px;
+    }
+
+    .oil-container{
+        height: 20vh;
+        overflow: hidden;
+    }
+
+    .oil-container a{
+        height: 400px;
+        width: 400px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .brands-img{
+        height: 50px;
+        width: 50px;
+    }
+
+    .name span{
+        font-size: 30px;
+    }
+
+    .name p{
+        font-size: 12px;
+    }
+    
+    .cateogeries{
+        flex-direction: column;
+    }
+
+    .product-links{
+        width: 140px;
+    }
+
+    .product-img{
+        object-fit: contain;
+    }
+
+    .safety{
+        height: 20vh;
+    }
+    .heading{
+        font-size: 10px;
+    }
+
+    .messages a img{
+        height: 40px;
+        width: 40px;
+    }
+    
+    .messages p{
+        font-size: 6px;
+    }
+
+    .footer-con{
+        height: 25vh;
+        overflow: hidden;
+        margin-top: 5px;
+    }
+
+    .deals{
+        height: 100px;
+        width: 100px;
+    }
+
+    .deals h3{
+        font-size: 10px;
+    }
+
+    .deals a{
+        font-size: 7px;
+    }
+
+    .icons{
+        gap: 10px;
+    }
+
+    .fa-brands{
+        font-size: 14px;
+    }
+}

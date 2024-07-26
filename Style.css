@@ -20,6 +20,8 @@ h1, h2, h3 ,h3, h5, h6{
     display: flex;
     justify-content: center;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.50);
+    z-index: 1000;
+    overflow-x: hidden;
 }
 
 /* nav links */
@@ -87,6 +89,7 @@ h1, h2, h3 ,h3, h5, h6{
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow-x: hidden;
 }
 .front-heading{
     height: 60%;
@@ -130,11 +133,10 @@ h1, h2, h3 ,h3, h5, h6{
 /* page2 skikcare */
 
 .skin-care{
-    height: 91vh;
     width: 100%;
+    overflow-x: hidden;
 }
 .img-skin{
-    background-color: red;
     height: 91vh;
     width: 100%;
     background-image: url(skin-care.webp);
@@ -154,21 +156,26 @@ h1, h2, h3 ,h3, h5, h6{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    overflow-x: hidden;
 }
 
 /* brand section */
 
-.brand-img{
-    height: 40vh;
+.brand-con{
     width: 100%;
     display: flex;
+    justify-content: center;
+}
+
+.brand-img{
+    width: 90%;
+    display: flex;
     justify-content: space-evenly;
-    align-items: center;
+    overflow-x: hidden;
 }
 .brand-1{
     height: 200px;
     width: 200px;
-    background-color: blue;
     background-image: url(a2e37957-b8d8-47d9-a997-592baf55d69f.avif);
     background-size: cover;
     background-position: center;
@@ -177,7 +184,6 @@ h1, h2, h3 ,h3, h5, h6{
 .brand-2{
     height: 200px;
     width: 200px;
-    background-color: blue;
     background-image: url(688a52c0-afef-41f8-a4f7-1c1605bf6594.avif);
     background-size: cover;
     background-position: center;
@@ -186,7 +192,6 @@ h1, h2, h3 ,h3, h5, h6{
 .brand-3{
     height: 200px;
     width: 200px;
-    background-color: blue;
     background-image: url(2d8d8127-1d56-4376-af63-cc50f6cf163e.avif);
     background-size: cover;
     background-position: center;
@@ -195,7 +200,6 @@ h1, h2, h3 ,h3, h5, h6{
 .brand-4{
     height: 200px;
     width: 200px;
-    background-color: blue;
     background-image: url(8594913f-3b9d-4dfa-adeb-9644b1f00963.avif);
     background-size: cover;
     background-position: center;
@@ -204,7 +208,6 @@ h1, h2, h3 ,h3, h5, h6{
 .brand-5{
     height: 200px;
     width: 200px;
-    background-color: blue;
     background-image: url(d004c44f-6b24-464c-96b7-7b9ed13f9e4f.avif);
     background-size: cover;
     background-position: center;
@@ -219,6 +222,7 @@ h1, h2, h3 ,h3, h5, h6{
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow-x: hidden;
 }
 .oil-container a{
  height: 80%;
@@ -235,29 +239,34 @@ h1, h2, h3 ,h3, h5, h6{
 
 /* hair products */
 
-.hair-brands{
-    height: 30vh;
+.hair-main{
     width: 100%;
     display: flex;
-    align-items: center;
     justify-content: center;
-    gap: 30px;
+    overflow-x: hidden;
+}
+
+.hair-brands{
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    overflow: hidden;
 }
 .brands-img{
     height: 180px;
     width: 180px;
-    background-size: cover;
 }
 
 /* only at your body care */
 
 .yourbodycare{
-    height: 15vh;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: end;
-    margin-top: 30px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    overflow-x: hidden;
 }
 .name{
     height: 80%;
@@ -272,29 +281,39 @@ h1, h2, h3 ,h3, h5, h6{
     font-size: 16px;
 }
 
+
+
+
+
+
+
 /* Product cateogries */
 
 .cateogeries{
     width: 100%;
-    height: 50vh;
     display: flex;  
     justify-content: center;
     gap: 30px;
     align-items: center;
+    padding-bottom: 10px;
+    overflow-x: hidden;
 }
 .product-links{
     height: 90%;
     width: 20%;
     border-radius: 10px;
     transition: 0.25s ease-in-out;
+    overflow: hidden;
 }
 .product-img{
     width: 100%;
     height: 100%;
+    object-fit: cover;
     border-radius: 10px;
+    z-index: 999;
 }
 .product-links:hover{
-    transform: scale(0.90);
+    scale: .9;
 }
 
 /* safety notices */
@@ -306,6 +325,7 @@ h1, h2, h3 ,h3, h5, h6{
     display: flex;
     flex-direction: column;
     gap: 10px;
+    overflow-x: hidden;
 }
 .heading{
     width: 100%;
@@ -341,13 +361,17 @@ h1, h2, h3 ,h3, h5, h6{
 /* hover cateogries section */
 
 .messages a{
-    transition: 0.40s ease-in-out;
+    transition: 0.3s ease-in-out;
 }
 .messages a:hover{
-    transform: rotatey(360deg);
+    transform: rotatey(180deg);
 }
 
 /* footer section */
+
+footer{
+    overflow-x: hidden;
+}
 
 .footer-con{
     height: 35vh;
@@ -358,6 +382,7 @@ h1, h2, h3 ,h3, h5, h6{
     align-items: center;
     margin-top: 20px;
     border: 2px black solid;
+    overflow-x: hidden;
 }
 .deals{
     height: 70%;
@@ -366,6 +391,7 @@ h1, h2, h3 ,h3, h5, h6{
     flex-direction: column;
     align-items: center;
     gap: 2px;
+
 }
 .deals a{
     text-decoration: none;
@@ -407,6 +433,7 @@ h1, h2, h3 ,h3, h5, h6{
     position: fixed;
     right: 0;
     bottom: 0;
+    overflow-x: hidden;
 }
 
 .customer-chat{
@@ -431,3 +458,5 @@ h1, h2, h3 ,h3, h5, h6{
     background-color: black;
     cursor: pointer;
 }
+
+
